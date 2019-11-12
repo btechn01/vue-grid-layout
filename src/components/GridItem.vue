@@ -574,7 +574,7 @@
                         } else {
                             newPosition.left = clientRect.left - parentRect.left;
                         }
-                        newPosition.top = clientRect.top - parentRect.top;
+                        newPosition.top = clientRect.top - parentRect.top + event.target.offsetParent.scrollTop;
                         this.dragging = newPosition;
                         this.isDragging = true;
                         break;
@@ -589,7 +589,7 @@
                         } else {
                             newPosition.left = clientRect.left - parentRect.left;
                         }
-                        newPosition.top = clientRect.top - parentRect.top;
+                        newPosition.top = clientRect.top - parentRect.top + event.target.offsetParent.scrollTop;
 //                        console.log("### drag end => " + JSON.stringify(newPosition));
 //                        console.log("### DROP: " + JSON.stringify(newPosition));
                         this.dragging = null;
