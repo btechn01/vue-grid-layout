@@ -58,6 +58,11 @@ new Vue({
             console.log(msg);
 
         },
+        containerResizedEvent: function(i, newH, newW, newHPx, newWPx){
+            var msg = "CONTAINER RESIZED i=" + i + ", H=" + newH + ", W=" + newW + ", H(px)=" + newHPx + ", W(px)=" + newWPx;
+            this.eventLog.push(msg);
+            console.log(msg);
+        },
         /**
          *
          * @param i the item id/index

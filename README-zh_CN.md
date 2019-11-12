@@ -6,7 +6,7 @@
 
 vue-grid-layout是一个类似于[Gridster](http://dsmorse.github.io/gridster.js/)的栅格布局系统, 适用于Vue.js。 **灵感源自于 [React-Grid-Layout](https://github.com/STRML/react-grid-layout)**
 
-### **当前版本:** 2.3.6 (支持 Vue 2.2+)
+### **当前版本:** 2.3.7 (支持 Vue 2.2+)
 
 ### **Vue 2.1.10 及以下请使用 [2.1.3](https://github.com/jbaysolutions/vue-grid-layout/tree/2.1.3)**
 ### **Vue 1 请使用 [1.0.3](https://github.com/jbaysolutions/vue-grid-layout/tree/1.0.3)** 
@@ -42,6 +42,7 @@ Also check https://cli.vuejs.org/guide/build-targets.html#library
 - [Draxed](https://www.draxed.com/?utm_source=github&utm_medium=web&utm_campaign=vue-grid-layout)
 - [cryptotiles](https://www.cryptotiles.io/?utm_source=github&utm_medium=web&utm_campaign=vue-grid-layout)
 - [Data Providers](https://www.dataproviders.io/?utm_source=github&utm_medium=web&utm_campaign=vue-grid-layout)
+- [Cataholic](https://cataholic.glitch.me/)
 
 *您还知悉其他项目? 请创建一个PR，谢谢!*
 
